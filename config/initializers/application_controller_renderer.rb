@@ -4,3 +4,4 @@
 #   http_host: 'example.org',
 #   https: false
 # )
+Rails.application.config.assets.paths << Rails.root.join('node_modules')
